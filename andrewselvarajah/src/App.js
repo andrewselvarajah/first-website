@@ -67,6 +67,10 @@ function App() {
         <div className = "bg-image"></div>
           <h1 className = "bg-text" ><MyName /></h1>
       </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
       {/* Welcome*/}  
       <div className = "welcome-background-holder">
         <div className = "background">
@@ -74,6 +78,10 @@ function App() {
           <Welcome></Welcome>
         </div>
       </div> 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
        {/* Projects*/} 
       <div className = 'project-background-holder'>  
         <div className = "background">
@@ -82,31 +90,33 @@ function App() {
             <h1 className= "title">Projects</h1>
             </div>
               <Row>
-                <Col className = "pro-col1">
-                  <Projects title = "STUDY BUDDY" subject = "Created within a course called Mobile Devices.  The app is used my students and tutors alike as a means for a more efficient and easy way to communicate with each other.  The app has a gps map taken from the google api.  ">
+                <Col className = "pro-col">
+                  <Projects title = "STUDY BUDDY" subject = "Created within a course called Mobile Devices.  The app is targeted towards students and tutors. The app is a means for commuication between the two parties.  The app has a gps map taken from the google api.  ">
 
                   </Projects>
                 </Col>
 
-                <Col className = "pro-col2">
-                  <Projects title = "AI TRAINING" subject = "Just a bunch of text that has no meraning since it is just a placeholder for real text and I cant think of stuff to write so im just writeing whatever comes to my head right now.  I dont know when i should stop but i guess sometime around now would be a good idea!"></Projects>
+                <Col className = "pro-col">
+                  <Projects title = "AI TRAINING" subject = "A demonstration of AI prediction algorithm using the keras API.  This program takes in data with different statistics about potential weather and predicts what the weather will be.  "></Projects>
                 </Col>
-                <Col className = "pro-col3">
-                  <Projects title = "GRAPHICS" subject = "Just a bunch of text that has no meraning since it is just a placeholder for real text and I cant think of stuff to write so im just writeing whatever comes to my head right now.  I dont know when i should stop but i guess sometime around now would be a good idea!"></Projects>
+
+                <Col className = "pro-col">
+                  <Projects title = "GRAPHICS" subject = "Using C++, the program displays a moving character with camera control.  "></Projects>
                 </Col>
               </Row>
           </Container>
         </div>
       </div>
-      <br></br>
-      <br></br> 
 
-      <Container>
+
+      <div className = 'skills-background-holder'>  
+        <div className = "background">
 
         <Skills>
 
 
         </Skills>
+<<<<<<< HEAD
       </Container>
       <br></br>
       <br></br> 
@@ -138,10 +148,45 @@ function App() {
               </br>
             <div>
           <Hobbies subject = {updateHobbiesSubject(radioValue)} image = {updateHobbiesImg(radioValue)}>
+=======
+      </div>
+      </div>
+>>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
 
-          </Hobbies>
+      <div className = 'hobbies-background-holder'>  
+        <div className = "background">
 
+          <Container fluid>
+          <h1 className= "title">Hobbies</h1>
+          <div className = "buttons-container">
+            <ButtonGroup toggle>
+              {radios.map((radio, idx) => (
+                <ToggleButton
+                  key={idx}
+                  type="radio"
+                  variant="secondary"
+                  name="radio"
+                  className = "hob-but"
+                  value={radio.value}
+                  checked={radioValue === radio.value}
+                  onChange={(e) => setRadioValue(e.currentTarget.value)}
+                  //onChange={(e) => forceUpdate()}
+                >
+                  {radio.name}
+                </ToggleButton>
+              ))}
+            </ButtonGroup>
+          </div>
+          <br>
+          </br>
+          <div>
+             <Hobbies subject = {updateHobbiesSubject(radioValue)} image = {updateHobbiesImg(radioValue)}>
+             </Hobbies>
+
+          </div>
+         </Container>
         </div>
+<<<<<<< HEAD
           </Container>
 
         </div>
@@ -150,6 +195,9 @@ function App() {
 
 
 
+=======
+       </div> 
+>>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
     </div>
   );
 }

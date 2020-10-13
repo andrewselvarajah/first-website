@@ -73,7 +73,9 @@ skills section.<br />
 projects section.<br />
 animations on scroll solution possibly.<br />
 Using AOS!
-
+using Recharts
+need to fill in chart
+FINISH THE SITE!!!
 ### Done:
 NAvbar at top
 Used reactbootstrap

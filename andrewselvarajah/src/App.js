@@ -67,10 +67,6 @@ function App() {
         <div className = "bg-image"></div>
           <h1 className = "bg-text" ><MyName /></h1>
       </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
       {/* Welcome*/}  
       <div className = "welcome-background-holder">
         <div className = "background">
@@ -78,10 +74,6 @@ function App() {
           <Welcome></Welcome>
         </div>
       </div> 
-<<<<<<< HEAD
-=======
-
->>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
        {/* Projects*/} 
       <div className = 'project-background-holder'>  
         <div className = "background">
@@ -116,42 +108,8 @@ function App() {
 
 
         </Skills>
-<<<<<<< HEAD
-      </Container>
-      <br></br>
-      <br></br> 
-      <div className = 'hobbies-background-holder'>  
-        <div className = "background">
-          <Container fluid>
-
-            <h1 className= "title">Hobbies</h1>
-              <div className = "buttons-container">
-                <ButtonGroup toggle>
-                  {radios.map((radio, idx) => (
-                    <ToggleButton
-                      key={idx}
-                      type="radio"
-                      variant="secondary"
-                      name="radio"
-                      className = "hob-but"
-                      value={radio.value}
-                      checked={radioValue === radio.value}
-                      onChange={(e) => setRadioValue(e.currentTarget.value)}
-                      //onChange={(e) => forceUpdate()}
-                    >
-                      {radio.name}
-                    </ToggleButton>
-                  ))}
-                </ButtonGroup>
-              </div>
-              <br>
-              </br>
-            <div>
-          <Hobbies subject = {updateHobbiesSubject(radioValue)} image = {updateHobbiesImg(radioValue)}>
-=======
       </div>
       </div>
->>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
 
       <div className = 'hobbies-background-holder'>  
         <div className = "background">
@@ -186,18 +144,7 @@ function App() {
           </div>
          </Container>
         </div>
-<<<<<<< HEAD
-          </Container>
-
-        </div>
-        </div>
-
-
-
-
-=======
        </div> 
->>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
     </div>
   );
 }

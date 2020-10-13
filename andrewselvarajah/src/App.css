@@ -6,8 +6,8 @@
 
  
 }
-*{
-
+html {
+  scroll-behavior: smooth;
 }
 .nav{
 
@@ -127,6 +127,7 @@
   background:rgba(255, 255, 255, 0);
 
 
+
 }
 .welcome-background-holder{
   background:rgba(103, 212, 226, 0.1);
@@ -135,14 +136,6 @@
   
 
 
-<<<<<<< HEAD
-}
-.welcome-background-holder .background .project-background-holder .hobbies-background-holder{
-  background:#7f7f7f;
-  background:rgba(255,255,255,0);
-  background:rgba(255, 255, 255, 0);
-=======
->>>>>>> c8df0fb6890464baa2552fc84b4b5ec58bf12fc4
 
 }
 
@@ -152,11 +145,13 @@
   position: relative;
 
 
+
 }
 .skills-background-holder{
   background:rgba(228, 118, 114, 0.1);
   padding: 20px;
   position: relative;
+
 
 }
 .hobbies-background-holder{
@@ -164,11 +159,14 @@
   padding: 20px;
   position: relative;
 
+
 }
 .hobbies-background-holder{
   background:rgba(233, 236, 16, 0.1);
   padding: 20px;
   position: relative;
+
+
 
 }
 
@@ -212,7 +210,11 @@
 
 
 
+.chart{
+  width: auto;
+  margin-left: 30%;  
 
+}
 
 
 .hob-but{
@@ -226,15 +228,12 @@
   margin-right: auto;
   width: auto;
   max-width: 700px;
-  height: 200px;
+  height: 500px;
+  width: auto;
   padding: 20px;
 
 
   box-shadow: 0.1px 1px 18px #888888;
-
-}
-.pro-github{
-
 
 }
 

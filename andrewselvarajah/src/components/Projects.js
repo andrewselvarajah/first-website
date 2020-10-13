@@ -8,7 +8,9 @@ function Projects(props){
          
        <h1 className = "col-title">{props.title}</h1>
        <p className = "sub">{props.subject}</p>
-       <button className = "pro-github"><i className="fab fa-github-square fa-3x" /></button>
+       <form action={props.link } target = "_blank">
+         <button type="submit" className = "pro-github" target="_blank"><i className="fab fa-github-square fa-3x" /></button>
+      </form>
        </div>
 
      </div>

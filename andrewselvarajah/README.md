@@ -80,3 +80,5 @@ FINISH THE SITE!!!
 NAvbar at top
 Used reactbootstrap
 Used react-reveal
+used recharts
+used react-scroll

@@ -1,9 +1,8 @@
 .App {
   height: 100%;
-  width: 100%;
+  widows: 100%;
   justify-content: center;
   text-align: center;
-
 
  
 }
@@ -20,7 +19,7 @@
   color: #f5f5f5;
   overflow: hidden;
   justify-content: center;
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -92,6 +91,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
   width: auto;
   height: 700px;
   padding: 20px;
@@ -123,11 +123,12 @@
 .welcome-background-holder{
   background:rgba(103, 212, 226, 0.1);
   padding: 20px;
-  position: relative;
+  justify-content: center;
+  
 
 
 }
-.welcome-background-holder .background .project-background-holder{
+.welcome-background-holder .background .project-background-holder .hobbies-background-holder{
   background:#7f7f7f;
   background:rgba(255,255,255,0);
   background:rgba(255, 255, 255, 0);
@@ -136,6 +137,12 @@
 
 .project-background-holder{
   background:rgba(145, 230, 8, 0.1);
+  padding: 20px;
+  position: relative;
+
+}
+.hobbies-background-holder{
+  background:rgba(233, 236, 16, 0.1);
   padding: 20px;
   position: relative;
 

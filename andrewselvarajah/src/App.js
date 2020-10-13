@@ -67,8 +67,6 @@ function App() {
         <div className = "bg-image"></div>
           <h1 className = "bg-text" ><MyName /></h1>
       </div>
-      <br></br>
-      <br></br> 
       {/* Welcome*/}  
       <div className = "welcome-background-holder">
         <div className = "background">
@@ -76,7 +74,6 @@ function App() {
           <Welcome></Welcome>
         </div>
       </div> 
-      <br></br>  
        {/* Projects*/} 
       <div className = 'project-background-holder'>  
         <div className = "background">
@@ -113,36 +110,42 @@ function App() {
       </Container>
       <br></br>
       <br></br> 
-      <Container fluid>
-      <h1 className= "title">Hobbies</h1>
-        <div className = "buttons-container">
-          <ButtonGroup toggle>
-            {radios.map((radio, idx) => (
-              <ToggleButton
-                key={idx}
-                type="radio"
-                variant="secondary"
-                name="radio"
-                className = "hob-but"
-                value={radio.value}
-                checked={radioValue === radio.value}
-                onChange={(e) => setRadioValue(e.currentTarget.value)}
-                //onChange={(e) => forceUpdate()}
-              >
-                {radio.name}
-              </ToggleButton>
-            ))}
-          </ButtonGroup>
-        </div>
-        <br>
-        </br>
-        <div>
+      <div className = 'hobbies-background-holder'>  
+        <div className = "background">
+          <Container fluid>
+
+            <h1 className= "title">Hobbies</h1>
+              <div className = "buttons-container">
+                <ButtonGroup toggle>
+                  {radios.map((radio, idx) => (
+                    <ToggleButton
+                      key={idx}
+                      type="radio"
+                      variant="secondary"
+                      name="radio"
+                      className = "hob-but"
+                      value={radio.value}
+                      checked={radioValue === radio.value}
+                      onChange={(e) => setRadioValue(e.currentTarget.value)}
+                      //onChange={(e) => forceUpdate()}
+                    >
+                      {radio.name}
+                    </ToggleButton>
+                  ))}
+                </ButtonGroup>
+              </div>
+              <br>
+              </br>
+            <div>
           <Hobbies subject = {updateHobbiesSubject(radioValue)} image = {updateHobbiesImg(radioValue)}>
 
           </Hobbies>
 
         </div>
           </Container>
+
+        </div>
+        </div>
 
 
 

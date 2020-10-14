@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0eec4e4.chunk.css",
-    "main.js": "/static/js/main.cfe37398.chunk.js",
-    "main.js.map": "/static/js/main.cfe37398.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a0a06f20.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a0a06f20.js.map",
-    "static/css/2.8ce86be7.chunk.css": "/static/css/2.8ce86be7.chunk.css",
-    "static/js/2.cda7d5ef.chunk.js": "/static/js/2.cda7d5ef.chunk.js",
-    "static/js/2.cda7d5ef.chunk.js.map": "/static/js/2.cda7d5ef.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.60aaeb3564946eaa97c2e6edb01d44c4.js": "/precache-manifest.60aaeb3564946eaa97c2e6edb01d44c4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.8ce86be7.chunk.css.map": "/static/css/2.8ce86be7.chunk.css.map",
-    "static/css/main.f0eec4e4.chunk.css.map": "/static/css/main.f0eec4e4.chunk.css.map",
-    "static/js/2.cda7d5ef.chunk.js.LICENSE.txt": "/static/js/2.cda7d5ef.chunk.js.LICENSE.txt",
-    "static/media/dog.jpeg": "/static/media/dog.1d262af8.jpeg",
-    "static/media/App.css": "/static/media/download.19f13c26.jpg",
-    "static/media/game.jpg": "/static/media/game.d533857f.jpg",
-    "static/media/me.jpg": "/static/media/me.41d9c660.jpg",
-    "static/media/pool.jpg": "/static/media/pool.aabbaccd.jpg"
+    "main.css": "/first-website/static/css/main.c26193a1.chunk.css",
+    "main.js": "/first-website/static/js/main.6de6bb74.chunk.js",
+    "main.js.map": "/first-website/static/js/main.6de6bb74.chunk.js.map",
+    "runtime-main.js": "/first-website/static/js/runtime-main.c7c47633.js",
+    "runtime-main.js.map": "/first-website/static/js/runtime-main.c7c47633.js.map",
+    "static/css/2.8ce86be7.chunk.css": "/first-website/static/css/2.8ce86be7.chunk.css",
+    "static/js/2.cda7d5ef.chunk.js": "/first-website/static/js/2.cda7d5ef.chunk.js",
+    "static/js/2.cda7d5ef.chunk.js.map": "/first-website/static/js/2.cda7d5ef.chunk.js.map",
+    "index.html": "/first-website/index.html",
+    "precache-manifest.07ea913dfa48ca32ac029320666fc8e5.js": "/first-website/precache-manifest.07ea913dfa48ca32ac029320666fc8e5.js",
+    "service-worker.js": "/first-website/service-worker.js",
+    "static/css/2.8ce86be7.chunk.css.map": "/first-website/static/css/2.8ce86be7.chunk.css.map",
+    "static/css/main.c26193a1.chunk.css.map": "/first-website/static/css/main.c26193a1.chunk.css.map",
+    "static/js/2.cda7d5ef.chunk.js.LICENSE.txt": "/first-website/static/js/2.cda7d5ef.chunk.js.LICENSE.txt",
+    "static/media/dog.jpeg": "/first-website/static/media/dog.1d262af8.jpeg",
+    "static/media/App.css": "/first-website/static/media/download.19f13c26.jpg",
+    "static/media/game.jpg": "/first-website/static/media/game.d533857f.jpg",
+    "static/media/me.jpg": "/first-website/static/media/me.41d9c660.jpg",
+    "static/media/pool.jpg": "/first-website/static/media/pool.aabbaccd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0a06f20.js",
+    "static/js/runtime-main.c7c47633.js",
     "static/css/2.8ce86be7.chunk.css",
     "static/js/2.cda7d5ef.chunk.js",
-    "static/css/main.f0eec4e4.chunk.css",
-    "static/js/main.cfe37398.chunk.js"
+    "static/css/main.c26193a1.chunk.css",
+    "static/js/main.6de6bb74.chunk.js"
   ]
 }
